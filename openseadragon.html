@@ -2,27 +2,4 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <div id="seadragon-viewer" oncontextmenu="return false;"></div>
 <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
-<script type="text/javascript">
-
-    var DHall = {
-      Image: {
-    xmlns: "http://schemas.microsoft.com/deepzoom/2008",
-    Url: "//joshp36.github.io/DHallViewer/DHall_pieces/",
-    Format: "png",
-    Overlap: "1",
-    TileSize: "256",
-    Size: {
-      Width:  "41618",
-      Height: "14090"
-    }
-  }
-};
-    
-    var viewer = OpenSeadragon({
-      id: "seadragon-viewer",
-      prefixUrl: "//openseadragon.github.io/openseadragon/images/",
-      tileSources: DHall,
-      showNavigator:  false
-    });
-
-</script>
+<script src="DHall.js"></script>
