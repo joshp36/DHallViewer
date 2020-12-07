@@ -19,7 +19,7 @@
       prefixUrl: "//openseadragon.github.io/openseadragon/images/",
       tileSources: DHall,
       showNavigator:  false,
-      visibilityRatio: 0.85,
+      visibilityRatio: 1,
       constrainDuringPan: false,
       minZoomLevel: 1
     });
