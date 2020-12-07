@@ -24,7 +24,7 @@ html {
   border: none;
   border-radius: 10px;
   color: #eee;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Cookie', cursive;
   position: relative;
   transition: 1s;
@@ -62,8 +62,8 @@ html {
 }
 
 #btn:hover #circle {
-  height: 50px;
-  width: 150px;
+  height: 35px;
+  width: 100px;
   left: 0;
   border-radius: 0;
   border-bottom: 2px solid #eee;
