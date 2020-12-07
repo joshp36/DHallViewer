@@ -10,7 +10,7 @@
       Width:  "41618",
       Height: "14090"
     },
-    minLevel: 13
+    minLevel: 15
   }
 };
     
