@@ -1,0 +1,25 @@
+<div id="seadragon-viewer" style="width: 800px; height: 600px;"></div>
+<script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+<script type="text/javascript">
+
+    var duomo = {
+      Image: {
+        xmlns: "http://schemas.microsoft.com/deepzoom/2008",
+        Url: "/image_files/",
+        Format: "png",
+        Overlap: "1",
+        TileSize: "256",
+        Size: {
+          Width:  "41618",
+          Height: "14090"
+        }
+      }
+    };
+    
+    var viewer = OpenSeadragon({
+      id: "seadragon-viewer",
+      prefixUrl: "//openseadragon.github.io/openseadragon/images/",
+      tileSources: duomo
+    });
+
+</script>
