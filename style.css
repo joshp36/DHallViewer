@@ -2,6 +2,12 @@ body {
   background-color: black;
 }
 
+back-button {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
 #seadragon-viewer {
   position: absolute;
   left: 0;
