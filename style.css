@@ -1,12 +1,13 @@
-body {
-  background-color: black;
+
+html {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 
-back-button {
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
 
 #seadragon-viewer {
   position: absolute;
@@ -14,4 +15,56 @@ back-button {
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+#btn {
+  background: #222;
+  height: 30px;
+  min-width: 100px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 50px;
+  width: 150px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
 }
