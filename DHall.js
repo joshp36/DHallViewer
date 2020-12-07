@@ -20,6 +20,6 @@
       tileSources: DHallz,
       showNavigator:  false,
       visibilityRatio: 0.85,
-      constrainDuringPan: true,
+      constrainDuringPan: false,
       minZoomLevel: 1
     });
