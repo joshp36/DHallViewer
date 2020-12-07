@@ -9,7 +9,8 @@
     Size: {
       Width:  "41618",
       Height: "14090"
-    }
+    },
+    minLevel: 13
   }
 };
     
@@ -20,8 +21,5 @@
       showNavigator:  false,
       visibilityRatio: 0.85,
       constrainDuringPan: false,
-      minZoomLevel: 1,
-      tileSource:   {
-        minLevel: 13
-      }
+      minZoomLevel: 1
     });
