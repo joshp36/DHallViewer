@@ -38,6 +38,11 @@ html {
   padding-top: 1px;
 }
 
+#btn a {
+    color: #eee;
+    text-decoration: none;
+}
+
 #btn #circle {
   width: 5px;
   height: 5px;
