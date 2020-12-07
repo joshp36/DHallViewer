@@ -6,7 +6,7 @@
     Format: "png",
     Overlap: "1",
     TileSize: "256",
-    minLevel: 13,
+    minLevel: 14,
     Size: {
       Width:  "41618",
       Height: "14090"
