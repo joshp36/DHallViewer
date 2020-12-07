@@ -7,8 +7,6 @@
     Overlap: "1",
     TileSize: "256",
     minLevel: 13,
-    visibilityRatio: 0.8,
-    constrainDuringPan: true,
     Size: {
       Width:  "41618",
       Height: "14090"
@@ -20,5 +18,7 @@
       id: "seadragon-viewer",
       prefixUrl: "//openseadragon.github.io/openseadragon/images/",
       tileSources: DHallz,
-      showNavigator:  false
+      showNavigator:  false,
+      visibilityRatio: 0.7,
+      constrainDuringPan: false,
     });
