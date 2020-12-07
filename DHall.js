@@ -8,6 +8,7 @@
     TileSize: "256",
     minLevel: 13,
     visibilityRatio: 0.8,
+    constrainDuringPan: true,
     Size: {
       Width:  "41618",
       Height: "14090"
