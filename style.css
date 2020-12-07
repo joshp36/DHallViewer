@@ -71,7 +71,7 @@ html {
 #btn:hover #circle {
   height: 23px;
   width: 80px;
-  left: auto;
+  left: 10px;
   border-radius: 0;
   border-bottom: 2px solid #eee;
 }
