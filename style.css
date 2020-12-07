@@ -26,7 +26,9 @@ html {
   color: #eee;
   font-size: 25px;
   font-family: 'Cookie', cursive;
-  position: relative;
+  position: absolute;
+  top: 75px;
+  left: 150px;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
   display: flex;
