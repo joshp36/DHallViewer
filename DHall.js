@@ -21,4 +21,5 @@
       showNavigator:  false,
       visibilityRatio: 0.7,
       constrainDuringPan: false,
+      minZoomLevel: 	1
     });
