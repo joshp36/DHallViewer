@@ -6,7 +6,6 @@
     Format: "png",
     Overlap: "1",
     TileSize: "256",
-    minLevel: 14,
     Size: {
       Width:  "41618",
       Height: "14090"
@@ -21,5 +20,8 @@
       showNavigator:  false,
       visibilityRatio: 0.85,
       constrainDuringPan: false,
-      minZoomLevel: 1
+      minZoomLevel: 1,
+      tileSource:   {
+        minLevel: 13
+      }
     });
