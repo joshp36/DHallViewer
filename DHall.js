@@ -16,7 +16,7 @@
     
     var viewer = OpenSeadragon({
       id: "seadragon-viewer",
-      prefixUrl: "//peterthomet.github.io/openseadragon-flat-toolbar-icons/images/",
+      prefixUrl: "//openseadragon.github.io/openseadragon/images/",
       tileSources: DHall,
       showNavigator:  false
     });
