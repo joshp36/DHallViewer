@@ -27,15 +27,15 @@ html {
   font-size: 23px;
   font-family: 'Cookie', cursive;
   position: absolute;
-  top: 4px;
-  left: 15vw;
+  top: 6px;
+  left: 145px;
   transition: 1s;
   -webkit-tap-highlight-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  padding-top: 5px;
+  padding-top: 1px;
 }
 
 #btn #circle {
@@ -64,7 +64,7 @@ html {
 }
 
 #btn:hover #circle {
-  height: 30px;
+  height: 23px;
   width: 80px;
   left: auto;
   border-radius: 0;
