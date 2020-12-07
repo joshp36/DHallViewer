@@ -1,5 +1,5 @@
 
-    var DHallz = {
+    var DHall = {
       Image: {
     xmlns: "http://schemas.microsoft.com/deepzoom/2008",
     Url: "//joshp36.github.io/DHallViewer/DHall_pieces/",
@@ -16,7 +16,7 @@
     var viewer = OpenSeadragon({
       id: "seadragon-viewer",
       prefixUrl: "//openseadragon.github.io/openseadragon/images/",
-      tileSources: DHallz,
+      tileSources: DHall,
       showNavigator:  false,
       visibilityRatio: 0.85,
       constrainDuringPan: false,
